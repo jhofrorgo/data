@@ -109,3 +109,544 @@ db.posiciones.insert(
 "usu_mod": "Ortiz Gomez"
 })
 
+
+
+actividad 2 --------------------------------------------
+
+CREATE
+
+db.terceros.insert(
+{
+"nombres": "Jhon Freddy",
+"apellidos": "Ortiz Gomez",
+"documento": "123456789",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "11/07/1991",
+"tip_tercero": "2",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.terceros.insert(
+{
+"nombres": "Francisco",
+"apellidos": "Perez",
+"documento": "987654321",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "11/07/1999",
+"tip_tercero": "2",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.juegos.insert(
+{
+"id": "COL1234",
+"fch_encuentro": "20/03/2022",
+"hora": "16:00",
+"pais": "Colombia",
+"ciudad": "bucaramanga",
+"estadio": "alfonso florez",
+"equipoa": "Bucaramanga",
+"equipoa": "Alianza petrolera",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+db.equipos.insert(
+{
+"nombre": "Bucaramanga",
+"dir_tecnico": "123456789",
+"dir_sede": "calle 58 no 12-90",
+"bar_sede": "san alonso",
+"ciudad": "bucaramanga",
+"departamento": "santander",
+"pais": "colombia",
+"telefono": "3214569874",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.equipos.insert(
+{
+"nombre": "Alianza petrolera",
+"dir_tecnico": "987654321",
+"dir_sede": "calle 12 no 45a-23",
+"bar_sede": "carrizal",
+"ciudad": "barrancabermeja",
+"departamento": "santander",
+"pais": "colombia",
+"telefono": "3167896543",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.resultados.insert(
+{
+"id_encuentro": "COL1234",
+"equipoa": "Bucaramanga",
+"equipob": "Alianza petrolera",
+"golesa": "2",
+"golesb": "0",
+"penaltis": "0",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.posiciones.insert(
+{
+"id_encuentro": "COL1234",
+"golesa": "2",
+"golesb": "0",
+"penaltis": "1",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+db.terceros.insert({
+"nombres": "ALBEIRO",
+"apellidos": "GUTIERREZ",
+"documento": "10958742547",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/11/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+
+db.terceros.insert({
+"nombres": "JHON",
+"apellidos": "ESCALONA",
+"documento": "10958742548",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/12/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JUAN CARLOS",
+"apellidos": "MONDRAGONZ MENDEZ",
+"documento": "10958742549",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/13/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "SEBASTIAN",
+"apellidos": "CHAPARRO NEIRA",
+"documento": "10958742550",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/14/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "CAMILO",
+"apellidos": "CIFUENTES ESTRADA",
+"documento": "10958742551",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/15/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "RICARDO ANDRES",
+"apellidos": "GOMEZ",
+"documento": "10958742552",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/16/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JUAN JOSE",
+"apellidos": "BOLAÑOS",
+"documento": "10958742553",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/17/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JHON ALEXANDER",
+"apellidos": "VALDIVIESO",
+"documento": "10958742554",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/18/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "FRANCISCO JAVIER",
+"apellidos": "VELEZ GOMEZ",
+"documento": "10958742555",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/19/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "ALEJANDRO ESTEBAN",
+"apellidos": "ALAMEDA",
+"documento": "10958742556",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/20/1996",
+"tip_tercero": "1",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JULIAN ANDRES",
+"apellidos": "VILLETA GARCEZ",
+"documento": "10958742557",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/21/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "FEDERICO",
+"apellidos": "GUTIERREZ",
+"documento": "10958742558",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/22/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "ALVARO",
+"apellidos": "URIBE VELEZ",
+"documento": "10958742559",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/23/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JOSE MARIA",
+"apellidos": "CORDOBA",
+"documento": "10958742560",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/24/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "FERNANDO JOSE",
+"apellidos": "URRUTIA",
+"documento": "10958742561",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/25/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "ADRIAN",
+"apellidos": "PLATA URQUIJO",
+"documento": "10958742562",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/26/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JUAN ESTEBAN",
+"apellidos": "MENDEZ SOLANO",
+"documento": "10958742563",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/27/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "MATHEO",
+"apellidos": "CASTELLANOS CORZO",
+"documento": "10958742564",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/28/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "ALEXANDER",
+"apellidos": "SILVA TRASLAVIÑA",
+"documento": "10958742565",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/29/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "XIAM",
+"apellidos": "CASAS TREVIÑO",
+"documento": "10958742566",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/30/1996",
+"tip_tercero": "1",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JOSE ELIAS",
+"apellidos": "PUYANA",
+"documento": "10958742567",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "3/31/1996",
+"tip_tercero": "3",
+"club_deportivo": "",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "FRANSISCO DE PAULA",
+"apellidos": "SANTANDER",
+"documento": "10958742568",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "4/1/1996",
+"tip_tercero": "3",
+"club_deportivo": "",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "PEDRO NEL",
+"apellidos": "OPSINA",
+"documento": "10958742569",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "4/2/1996",
+"tip_tercero": "3",
+"club_deportivo": "",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "ANDRES",
+"apellidos": "PASTRANA",
+"documento": "10958742570",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "4/3/1996",
+"tip_tercero": "3",
+"club_deportivo": "",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+db.terceros.insert({
+"nombres": "JUAN CARLOS",
+"apellidos": "GALAN SARMIENTO",
+"documento": "10958742571",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "4/4/1996",
+"tip_tercero": "3",
+"club_deportivo": "",
+"fch_cre": "3/20/2022",
+"usu_cre": "jortiz",
+"fch_mod": "",
+"usu_mod": ""
+}) 
+
+READ
+
+db.terceros.find().pretty()
+
+db.terceros.find({fch_cre: "Ortiz Gomez"}).pretty()
+
+db.terceros.find({tip_tercero: "2"}).pretty()
+
+db.resultados.find().pretty()
+
+UPDATE
+
+db.terceros.update(
+   { _id:62375ffd6417e39ac3081426 },
+   {
+     $set: {
+       fch_cre: "20/03/2022",
+       usu_cre: "20/03/2022",
+       fch_mod: "20/03/2022",	   
+       usu_mod: "20/03/2022"}
+   }
+)
+
+
+db.terceros.updateMany(
+{fch_cre: 20/03/2022},
+	{$set: 
+		{ "fch_cre": "20/03/2022"}
+}
+)
+
+db.terceros.updateMany(
+{usu_cre: "Ortiz Gomez"},
+	{$set: 
+		{ "usu_cre": "jortiz"}
+}
+)
+
+db.terceros.updateMany(
+{fch_mod: 20/03/2022},
+	{$set: 
+		{ "fch_mod": "20/03/2022"}
+}
+)
+
+db.terceros.updateMany(
+{usu_mod: "Ortiz Gomez"},
+	{$set: 
+		{ "usu_mod": "jortiz"}
+}
+)
+
+
+/*
+db.inventory.insertMany( [
+   { item: "canvas", qty: 100, size: { h: 28, w: 35.5, uom: "cm" }, status: "A" },
+   { item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
+   { item: "mat", qty: 85, size: { h: 27.9, w: 35.5, uom: "cm" }, status: "A" },
+   { item: "mousepad", qty: 25, size: { h: 19, w: 22.85, uom: "cm" }, status: "P" },
+   { item: "notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "P" },
+   { item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D" },
+   { item: "planner", qty: 75, size: { h: 22.85, w: 30, uom: "cm" }, status: "D" },
+   { item: "postcard", qty: 45, size: { h: 10, w: 15.25, uom: "cm" }, status: "A" },
+   { item: "sketchbook", qty: 80, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
+   { item: "sketch pad", qty: 95, size: { h: 22.85, w: 30.5, uom: "cm" }, status: "A" }
+] );
+*/
+
+
+
+
+
