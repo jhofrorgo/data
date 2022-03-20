@@ -1,0 +1,111 @@
+db.terceros.insert(
+{
+"nombres": "Jhon Freddy",
+"apellidos": "Ortiz Gomez",
+"documento": "123456789",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "11/07/1991",
+"tip_tercero": "2",
+"club_deportivo": "Bucaramanga",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.terceros.insert(
+{
+"nombres": "Francisco",
+"apellidos": "Perez",
+"documento": "987654321",
+"nacionalidad": "colombiano",
+"sexo": "masculino",
+"fch_nac": "11/07/1999",
+"tip_tercero": "2",
+"club_deportivo": "Alianza petrolera",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.juegos.insert(
+{
+"id": "COL1234",
+"fch_encuentro": "20/03/2022",
+"hora": "16:00",
+"pais": "Colombia",
+"ciudad": "bucaramanga",
+"estadio": "alfonso florez",
+"equipoa": "Bucaramanga",
+"equipoa": "Alianza petrolera",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+db.equipos.insert(
+{
+"nombre": "Bucaramanga",
+"dir_tecnico": "123456789",
+"dir_sede": "calle 58 no 12-90",
+"bar_sede": "san alonso",
+"ciudad": "bucaramanga",
+"departamento": "santander",
+"pais": "colombia",
+"telefono": "3214569874",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.equipos.insert(
+{
+"nombre": "Alianza petrolera",
+"dir_tecnico": "987654321",
+"dir_sede": "calle 12 no 45a-23",
+"bar_sede": "carrizal",
+"ciudad": "barrancabermeja",
+"departamento": "santander",
+"pais": "colombia",
+"telefono": "3167896543",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.resultados.insert(
+{
+"id_encuentro": "COL1234",
+"equipoa": "Bucaramanga",
+"equipob": "Alianza petrolera",
+"golesa": "2",
+"golesb": "0",
+"penaltis": "0",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
+
+db.posiciones.insert(
+{
+"id_encuentro": "COL1234",
+"golesa": "2",
+"golesb": "0",
+"penaltis": "1",
+"fch_cre": "Ortiz Gomez",
+"usu_cre": "Ortiz Gomez",
+"fch_mod": "Ortiz Gomez",
+"usu_mod": "Ortiz Gomez"
+})
+
